@@ -1,0 +1,172 @@
+# PLAN FINAL DE AGRUPACIÓN — *Cuatro Jugadores de Pádel (ediciones 1–44)*
+
+---
+
+## Summary
+
+This document explains how and why the 44 original editions of Cuatro Jugadores de Pádel were grouped into 5 thematic volumes.
+The grouping reflects:
+
+- A coherent progression of learning (from fundamentals → to walls → to attack → to tactics → to mental game)
+- Editorial consistency
+- Improved retrieval accuracy in the RAG system
+- Clear separation of technical, tactical, offensive, defensive, and mental content
+- Balanced file sizes for efficient chunking and embedding
+
+The structure below is already implemented in the repository and validated.
+
+This 5-volume structure provides:
+- A clean knowledge base for the RAG engine
+- A pedagogically correct grouping for pádel
+- A perfect foundation for training a style-aligned LLM
+- A scalable structure for adding future editions
+
+---
+
+## **📗 Archivo 1 — Fundamentos y técnica base**
+
+**Archivo:** `01_Fundamentos_y_principios_tecnicos.md`
+
+**Objetivo del bloque:**
+Asentar los principios esenciales del método *Cuatro Jugadores*: empuñadura, control, punto de impacto, armado corto, “jugar de lado”, movilidad y coordinación entre piernas y brazos.
+
+**Incluye:**
+
+1. Edición 1 – Bienvenida
+2. Edición 2 – De menos a más
+3. Edición 3 – Jugar de lado (Especial Buenos Aires)
+4. Edición 4 – Punto de impacto
+5. Edición 5 – Controla el golpe
+6. Edición 6 – Conceptos mínimos
+7. Edición 23 – Por qué el movimiento de las piernas es clave
+8. Edición 24 – Seguimos trabajando en el movimiento
+9. Edición 21 – Cuatro puntos para mejorar tu nivel
+10. Edición 36 – Aprender a controlar la pelota (golpear con el centro de la pala)
+
+📍**Tema global:** técnica limpia, movimiento eficiente y control del golpe.
+🔹Culmina con la edición 36, que cierra el ciclo de precisión y centro de impacto.
+
+---
+
+## **📘 Archivo 2 — Paredes, rebotes y juego de fondo**
+
+**Archivo:** `02_Paredes_y_juego_de_fondo.md`
+
+**Objetivo del bloque:**
+Dominar las paredes y el ritmo desde el fondo de pista. Aprender a defender con inteligencia, interpretar rebotes y usar la pared como aliada.
+
+**Incluye:**
+
+1. Edición 7 – Golpes en el fondo de la pista
+2. Edición 8 – Jugamos con la pared
+3. Edición 11 – Rebote de pared lateral
+4. Edición 12 – Salida o bajada de pared
+5. Edición 13 – Giro de pared
+6. Edición 34 – Cómo bajar la velocidad del juego
+7. Edición 35 – Cómo jugar lento
+8. Edición 90 (Interpretar qué golpe de fondo debo hacer)
+
+📍**Tema global:** defensa, ritmo y control mediante paredes.
+🔹Refuerza el aprendizaje sobre lectura de trayectoria y toma de tiempo.
+
+---
+
+## **📙 Archivo 3 — Juego aéreo, red y golpes ofensivos**
+
+**Archivo:** `03_Juego_aereo_y_ofensivo.md`
+
+**Objetivo del bloque:**
+Dominar la red, mantener la posición ofensiva y ejecutar correctamente bandejas, víboras, voleas, globos y remates.
+
+**Incluye:**
+
+1. Edición 9 – Los puntos se ganan en la red
+2. Edición 10 – No queremos perder la red: la bandeja
+3. Edición 14 – El globo: el golpe más determinante
+4. Edición 15 – Somos ofensivos en la red: la volea
+5. Edición 16 – Los puntos imprescindibles de la bandeja
+6. Edición 17 – Añadimos la víbora a nuestro repertorio
+7. Edición 18 – El golpe más gratificante (remate)
+8. Edición 19 – Remate por 3 metros
+9. Edición 30 – Cuándo subir a bloquear después del globo
+10. Edición 31 – Cómo realizar un bloqueo de volea
+11. Edición 38 – Cambia tu volea
+12. Edición 46 (37 original) – No muñequear: control en volea y bandeja
+
+📍**Tema global:** ataque técnico, control en la red y golpes de definición.
+🔹El bloque con mayor carga práctica, centrado en dominio aéreo.
+
+---
+
+## **📒 Archivo 4 — Táctica, estrategia y estructura del punto**
+
+**Archivo:** `04_Tactica_y_estructuracion_del_punto.md`
+
+**Objetivo del bloque:**
+Aplicar técnica y control en decisiones tácticas. Aprender a leer el juego, moverse en pareja y estructurar el punto desde el saque hasta la finalización.
+
+**Incluye:**
+
+1. Edición 22 – Cuatro jugadas que debes conocer
+2. Edición 26 – Cuatro puntos sobre el saque
+3. Edición 27 – Cómo restar en pádel
+4. Edición 28 – Dónde jugar la primera volea
+5. Edición 29 – Cuándo realizar el primer globo
+6. Edición 33 – Cuatro puntos para leer mejor el juego
+7. Edición 32 – El partido del año (Tapia vs Galán/Lebrón)
+8. Edición 44 – Situaciones de partido en pádel
+
+📍**Tema global:** pensamiento táctico, lectura del rival y construcción de jugadas.
+🔹Ideal para la transición hacia juego avanzado.
+
+---
+
+## **📕 Archivo 5 — Mentalidad, puntos débiles y mejora continua**
+
+**Archivo:** `05_Mentalidad_y_mejora_continua.md`
+
+**Objetivo del bloque:**
+Fortalecer el enfoque mental, detectar los puntos débiles y consolidar el progreso con rutinas, mindset técnico y visión global del aprendizaje.
+
+**Incluye:**
+
+1. Edición 20 – Primera clase de temporada: recuperar sensaciones
+2. Edición 25 – Recap del primer año
+3. Edición 39 – Serie: puntos débiles en pádel
+4. Edición 40 – Cuatro puntos para mejorar movilidad
+5. Edición 41 – Evitar pensar mucho
+6. Edición 42 – Lo mejor de Cuatro Jugadores 2023
+7. Edición 43 – Serie de puntos débiles (recap final)
+
+📍**Tema global:** mentalidad aplicada, autoconocimiento y evolución del jugador.
+🔹Cierra el recorrido completo con perspectiva de mejora continua.
+
+---
+
+## 🧩 **Resumen final de organización**
+
+| Archivo | Título sugerido                    | Enfoque principal                           | Ediciones incluidas          | Nº |
+| ------- | ---------------------------------- | ------------------------------------------- | ---------------------------- | -- |
+| 1       | Fundamentos y principios técnicos  | Base técnica, control, movimiento           | 1–6, 21, 23, 24, 36          | 10 |
+| 2       | Paredes y juego de fondo           | Defensa, ritmo, lectura del rebote          | 7, 8, 11, 12, 13, 34, 35, 90 | 8  |
+| 3       | Juego aéreo y ofensivo             | Red, bandeja, víbora, remate                | 9, 10, 14–19, 30, 31, 37, 38 | 12 |
+| 4       | Táctica y estructuración del punto | Estrategia, lectura, construcción del punto | 22, 26–29, 32, 33, 44        | 8  |
+| 5       | Mentalidad y mejora continua       | Puntos débiles, mindset, evolución          | 20, 25, 39–43                | 7  |
+
+---
+
+📦 **Formato de cada archivo agrupado**
+
+* Formato .md en orden temático.
+* Cada edición separada con delimitador, sin modificar el contenido original.
+:
+
+  ```markdown
+  ---
+  # Edición X – Título original
+  [contenido íntegro]
+  ---
+  ```
+
+---
+
